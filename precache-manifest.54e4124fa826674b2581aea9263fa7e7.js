@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/finnsatergard/static/media/roadtosun.80a7f30b.jpg"
   },
   {
-    "revision": "a9bc451005de337ce144d5a352582b67",
-    "url": "/finnsatergard/static/media/cow.a9bc4510.jpg"
-  },
-  {
     "revision": "713afcab95f4ec587b970b284a137255",
     "url": "/finnsatergard/static/media/sheep.713afcab.jpg"
+  },
+  {
+    "revision": "a9bc451005de337ce144d5a352582b67",
+    "url": "/finnsatergard/static/media/cow.a9bc4510.jpg"
   },
   {
     "revision": "6dfcaf936487b3d3a79e3aa2c35fb061",
