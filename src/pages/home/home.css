@@ -1,0 +1,71 @@
+html, body {
+  height: 100%;
+}
+
+.page {
+  padding: 0;
+}
+
+.contentContainer {
+  height: 100%;
+}
+.contentContainer .bgImg1, .contentContainer .bgImg2, .contentContainer .bgImg3, .contentContainer .bgImg4, .contentContainer .bgImg5 {
+  position: relative;
+  opacity: 70%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contentContainer .bgImg1 .caption, .contentContainer .bgImg2 .caption, .contentContainer .bgImg3 .caption, .contentContainer .bgImg4 .caption, .contentContainer .bgImg5 .caption {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #FFFAFA;
+}
+.contentContainer .bgImg1 .border, .contentContainer .bgImg2 .border, .contentContainer .bgImg3 .border, .contentContainer .bgImg4 .border, .contentContainer .bgImg5 .border {
+  background-color: #616161;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1em;
+}
+.contentContainer .bgImg1 {
+  background-image: url("../../pictures/sheep.jpg");
+  height: 100%;
+}
+.contentContainer .bgImg2 {
+  background-image: url("../../pictures/roadtosun.jpg");
+  height: 400px;
+}
+.contentContainer .bgImg3 {
+  background-image: url("../../pictures/mushroom.jpg");
+  height: 400px;
+}
+.contentContainer .bgImg4 {
+  background-image: url("../../pictures/cow.jpg");
+  height: 500px;
+}
+.contentContainer .bgImg5 {
+  background-image: url("../../pictures/vintra.jpg");
+  height: 700px;
+  background-position: 50% 20%;
+}
+.contentContainer .content {
+  padding: 40px 70px;
+  color: #FFFAFA;
+  font-size: 1em;
+  text-align: left;
+}
+.contentContainer .content:nth-child(4), .contentContainer .content:nth-child(8) {
+  background-color: #FFFAFA;
+  color: #616161;
+}
+.contentContainer .content h1, .contentContainer .content h2, .contentContainer .content h3, .contentContainer .content h4, .contentContainer .content h5, .contentContainer .content h6 {
+  margin: 0;
+}
+.contentContainer .content p {
+  margin-top: 0;
+}
+
+/*# sourceMappingURL=home.css.map */

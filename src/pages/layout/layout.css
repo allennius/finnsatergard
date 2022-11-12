@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  height: 100vh;
+  margin-top: 50px;
+  background-image: inherit;
+}
+.container .page {
+  border-top-left-radius: 5px;
+  background: inherit;
+  padding: 0;
+  flex: 6;
+}
+
+/*# sourceMappingURL=layout.css.map */

@@ -1,0 +1,30 @@
+// colors
+
+$green: #687864;
+$blue: #31708E;
+$blue2: #5085A5;
+$blue3: #8FC1E3;
+$white: #F7F9FB;
+
+$navcolor: rgba(0, 0, 0, 0.75);
+
+
+.sideNav {
+    color: $blue3;
+    flex: 1;
+    position:fixed;
+    top: 50px;
+    display: block;
+    background-color: #333;
+    max-width: 130px;
+    min-width: 100px;
+    height: 50vh;
+    border-radius: 0 15px 15px 0;
+    transition: .8s ease;
+    
+
+    &.collapsed {
+        flex: 0;
+        margin-left: -100px;
+    }
+}

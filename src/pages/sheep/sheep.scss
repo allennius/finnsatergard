@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+}
+
+.page {
+    padding: 0;
+}
+
+.sheepContentContainer {
+    height: 100%;
+
+
+    .bgImg1, .bgImg2, .bgImg3, .bgImg4, .bgImg5 {
+        position: relative;
+        opacity: 70%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+
+        .caption {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: white;
+        }
+        .border {
+            background-color: #333;
+            padding: 5px;
+            border-radius: 5px;
+            font-size: 1em;
+
+        }
+    }
+
+    .bgImg1 {
+        background-image: url('../../pictures/sheep.jpg');
+        height: 100%;
+    }
+
+    .bgImg2 {
+        background-image: url('../../pictures/roadtosun.jpg');
+        height: 400px;
+    }
+
+    .bgImg3 {
+        background-image: url('../../pictures/mushroom.jpg');
+        height: 400px;
+    }
+
+    .bgImg4 {
+        background-image: url('../../pictures/cow.jpg');
+        height: 500px;
+    }
+
+    .bgImg5 {
+        background-image: url('../../pictures/vintra.jpg');
+        height: 700px;
+        // height: 100%;
+        // max-width: 700px;
+        background-position: 50% 20%;
+    }
+
+    .sheepContent {
+        padding: 40px 70px;
+        background-color: gray;
+        color: white;
+        font-size: 1em;
+        text-align: left;
+        
+        &:nth-of-type() {
+            background-color: white;
+            color: black;
+        }
+
+        h1, h2, h3, h4, h5, h6 {margin: 0;}
+        
+        p {
+            margin-top: 0;
+            color: whitesmoke;
+            // text-align: left;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+// colors
+
+$green: #687864;
+$blue: #31708E;
+$blue2: #5085A5;
+$blue3: #8FC1E3;
+$white: #F7F9FB;
+
+$backgroundcolor: #ffffffbe;
+
+.container {
+    display: flex;
+    height: 100vh;
+    margin-top: 50px;
+    background-image: inherit;
+    // background-color: $white;
+
+
+    .page {
+        border-top-left-radius: 5px;
+        background: inherit;
+        padding: 0;
+        // background-image: url("../../pictures/test.JPG");
+        // background-color: $white;
+        flex:  6;
+    }
+}
