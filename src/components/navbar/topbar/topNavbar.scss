@@ -19,7 +19,7 @@ $white-snow: #F7F9FB;
     background: inherit;
     background-color: $gray-granite;
     z-index: 2;
-    opacity: 90%;
+    opacity: 0.9;
     height: 50px;
     overflow: hidden;
     position: fixed;
@@ -61,7 +61,7 @@ $white-snow: #F7F9FB;
             &:hover {
                 color: $white-snow;
                 font-size: 1.1em;
-                opacity: 50%;
+                opacity: 0.5;
             }
             &:active {
                 color: $white-snow;
@@ -75,7 +75,7 @@ $white-snow: #F7F9FB;
     display: none;
     margin: auto 15px;
     margin-left: auto;
-    opacity: 90%;
+    opacity: 0.9;
     cursor: pointer;
     position: absolute;
     z-index: 2;
@@ -139,7 +139,7 @@ $white-snow: #F7F9FB;
         height: 15em;
         flex-flow: column;
         justify-content: flex-start;
-        opacity: 100%;
+        opacity: 1;
         // animation: widthGrowing 2s;
 
         .navList {
@@ -171,7 +171,7 @@ $white-snow: #F7F9FB;
 
 
             &:hover {
-                opacity: 50%;
+                opacity:0.5;
                 font-size: 1.1em;
             }
         }
