@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "2e3dc9525ff4eb449dd1",
+    "revision": "ed974cc47cfa23637c3f",
     "url": "/finnsatergard/static/css/main.14f98e7e.chunk.css"
   },
   {
-    "revision": "2e3dc9525ff4eb449dd1",
-    "url": "/finnsatergard/static/js/main.aca2674a.chunk.js"
+    "revision": "ed974cc47cfa23637c3f",
+    "url": "/finnsatergard/static/js/main.5ed0be2f.chunk.js"
   },
   {
     "revision": "aa1e0f9ca54fbc43935f",
     "url": "/finnsatergard/static/js/runtime~main.cc5047d0.js"
   },
   {
-    "revision": "bb929a60571beee7ca24",
-    "url": "/finnsatergard/static/js/2.8c7b1906.chunk.js"
+    "revision": "0a7d7db41f657516844a",
+    "url": "/finnsatergard/static/js/2.8b07b06a.chunk.js"
   },
   {
     "revision": "e94b933a435eb14e88e4a0c25670676d",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/finnsatergard/static/media/cow.a9bc4510.jpg"
   },
   {
-    "revision": "a4afec8ebd3aa7a68d6b2cf063023c6b",
+    "revision": "beb618675dc71044481c1b073d6f1550",
     "url": "/finnsatergard/index.html"
   }
 ];
