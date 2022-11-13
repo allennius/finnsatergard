@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/finnsatergard/precache-manifest.241fca1ad656ced948a910008bbfa599.js"
+  "/finnsatergard/precache-manifest.e1c91cfe62bd82c431fe187955f59741.js"
 );
 
 workbox.clientsClaim();

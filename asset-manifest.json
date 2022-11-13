@@ -1,5 +1,5 @@
 {
-  "main.css": "/finnsatergard/static/css/main.2eea134f.chunk.css",
+  "main.css": "/finnsatergard/static/css/main.031e361d.chunk.css",
   "main.js": "/finnsatergard/static/js/main.aca2674a.chunk.js",
   "main.js.map": "/finnsatergard/static/js/main.aca2674a.chunk.js.map",
   "runtime~main.js": "/finnsatergard/static/js/runtime~main.cc5047d0.js",
@@ -7,8 +7,8 @@
   "static/js/2.8c7b1906.chunk.js": "/finnsatergard/static/js/2.8c7b1906.chunk.js",
   "static/js/2.8c7b1906.chunk.js.map": "/finnsatergard/static/js/2.8c7b1906.chunk.js.map",
   "index.html": "/finnsatergard/index.html",
-  "precache-manifest.241fca1ad656ced948a910008bbfa599.js": "/finnsatergard/precache-manifest.241fca1ad656ced948a910008bbfa599.js",
+  "precache-manifest.e1c91cfe62bd82c431fe187955f59741.js": "/finnsatergard/precache-manifest.e1c91cfe62bd82c431fe187955f59741.js",
   "service-worker.js": "/finnsatergard/service-worker.js",
-  "static/css/main.2eea134f.chunk.css.map": "/finnsatergard/static/css/main.2eea134f.chunk.css.map",
+  "static/css/main.031e361d.chunk.css.map": "/finnsatergard/static/css/main.031e361d.chunk.css.map",
   "static/media/sheep.css": "/finnsatergard/static/media/vintra.b57c0e55.jpg"
 }
