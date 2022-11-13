@@ -15,11 +15,16 @@ $blue2: #5085A5;
 $blue3: #8FC1E3;
 $white-snow: #F7F9FB;
 
+$opacity-1: 1;
+$opacity-9: 0.9;
+$opacity-5: 0.5;
+$opacity-0: 0;
+
 .topNav {
     background: inherit;
     background-color: $gray-granite;
     z-index: 2;
-    opacity: 0.9;
+    opacity: $opacity-9;
     height: 50px;
     overflow: hidden;
     position: fixed;
@@ -61,7 +66,7 @@ $white-snow: #F7F9FB;
             &:hover {
                 color: $white-snow;
                 font-size: 1.1em;
-                opacity: 0.5;
+                opacity: $opacity-5;
             }
             &:active {
                 color: $white-snow;
@@ -75,7 +80,7 @@ $white-snow: #F7F9FB;
     display: none;
     margin: auto 15px;
     margin-left: auto;
-    opacity: 0.9;
+    opacity: $opacity-9;
     cursor: pointer;
     position: absolute;
     z-index: 2;
@@ -97,7 +102,7 @@ $white-snow: #F7F9FB;
             transform: translate(0, 6px) rotate(-45deg)
         }
         &.bar2 {
-            opacity: 0;
+            opacity: $opacity-0;
         }
         &.bar3 {
             transform: translate(0, -6px) rotate(45deg);
@@ -139,7 +144,7 @@ $white-snow: #F7F9FB;
         height: 15em;
         flex-flow: column;
         justify-content: flex-start;
-        opacity: 1;
+        opacity: $opacity-1;
         // animation: widthGrowing 2s;
 
         .navList {
@@ -171,7 +176,7 @@ $white-snow: #F7F9FB;
 
 
             &:hover {
-                opacity:0.5;
+                opacity: $opacity-5;
                 font-size: 1.1em;
             }
         }

@@ -7,6 +7,8 @@ $charcoal-dark: #333333;
 $white-snow: #FFFAFA;
 $white-antiflash: #F2F2F2;
 
+$opacity: 0.7;
+
 html, body {
     height: 100%;
 }
@@ -21,7 +23,7 @@ html, body {
 
     .bgImg1, .bgImg2, .bgImg3, .bgImg4, .bgImg5 {
         position: relative;
-        opacity: 70%;
+        opacity: $opacity;
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;

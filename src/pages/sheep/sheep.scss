@@ -1,3 +1,6 @@
+$opacity: 0.7;
+
+
 html, body {
     height: 100%;
 }
@@ -12,7 +15,7 @@ html, body {
 
     .bgImg1, .bgImg2, .bgImg3, .bgImg4, .bgImg5 {
         position: relative;
-        opacity: 0.7;
+        opacity: $opacity;
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
