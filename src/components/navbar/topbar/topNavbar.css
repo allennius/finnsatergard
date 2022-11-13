@@ -2,7 +2,7 @@
   background: inherit;
   background-color: #616161;
   z-index: 2;
-  opacity: 90%;
+  opacity: 0.9;
   height: 50px;
   overflow: hidden;
   position: fixed;
@@ -42,7 +42,7 @@
 .topNav .navHead a:hover {
   color: #F7F9FB;
   font-size: 1.1em;
-  opacity: 50%;
+  opacity: 0.5;
 }
 .topNav .navHead a:active {
   color: #F7F9FB;
@@ -52,7 +52,7 @@
   display: none;
   margin: auto 15px;
   margin-left: auto;
-  opacity: 90%;
+  opacity: 0.9;
   cursor: pointer;
   position: absolute;
   z-index: 2;
@@ -102,7 +102,7 @@
     height: 15em;
     flex-flow: column;
     justify-content: flex-start;
-    opacity: 100%;
+    opacity: 1;
   }
   .topNav.responsive .navList {
     border-top: 0.5px solid #F7F9FB;
@@ -128,7 +128,7 @@
     margin-top: 20px;
   }
   .topNav.responsive .navLink:hover {
-    opacity: 50%;
+    opacity: 0.5;
     font-size: 1.1em;
   }
   .topNav.responsive .navHead {
