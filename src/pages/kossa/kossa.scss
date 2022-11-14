@@ -19,15 +19,16 @@ $white-snow-antiflash: #F2F2F2;
 
     .kossaContent {
         display: flex;
-        justify-content: space-between;
         align-items: center;
         flex-wrap: nowrap;
+        margin: 0 20px 50px 20px;
         background-color: $white-snow;
         max-height: 20em;
         border-radius: 10px;
         max-width: 100%;
         overflow: hidden;
         align-self: flex-start;
+        box-shadow: $gray-bright 0px 0px 2px 1px;
 
         &:nth-child(even) {
             align-self: flex-end;

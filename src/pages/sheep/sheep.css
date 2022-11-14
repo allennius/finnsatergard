@@ -1,73 +1,27 @@
 html, body {
-  height: 100%;
-}
-
-.page {
-  padding: 0;
-}
-
-.sheepContentContainer {
-  height: 100%;
-}
-.sheepContentContainer .bgImg1, .sheepContentContainer .bgImg2, .sheepContentContainer .bgImg3, .sheepContentContainer .bgImg4, .sheepContentContainer .bgImg5 {
-  position: relative;
-  opacity: 0.7;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.sheepContentContainer .bgImg1 .caption, .sheepContentContainer .bgImg2 .caption, .sheepContentContainer .bgImg3 .caption, .sheepContentContainer .bgImg4 .caption, .sheepContentContainer .bgImg5 .caption {
-  position: absolute;
-  top: 50%;
   width: 100%;
-  text-align: center;
-  color: white;
-}
-.sheepContentContainer .bgImg1 .border, .sheepContentContainer .bgImg2 .border, .sheepContentContainer .bgImg3 .border, .sheepContentContainer .bgImg4 .border, .sheepContentContainer .bgImg5 .border {
-  background-color: #333;
-  padding: 5px;
-  border-radius: 5px;
-  font-size: 1em;
-}
-.sheepContentContainer .bgImg1 {
-  background-image: url("../../pictures/sheep.jpg");
   height: 100%;
 }
-.sheepContentContainer .bgImg2 {
-  background-image: url("../../pictures/roadtosun.jpg");
-  height: 400px;
+
+.contentContainer {
+  height: 100%;
+  padding: 10%;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 60px;
+  background-color: #FFFAFA;
 }
-.sheepContentContainer .bgImg3 {
-  background-image: url("../../pictures/mushroom.jpg");
-  height: 400px;
+.contentContainer .contentBox {
+  position: relative;
+  min-width: 100px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: #616161 0px 18px 50px -10px;
+  left: 5%;
 }
-.sheepContentContainer .bgImg4 {
-  background-image: url("../../pictures/cow.jpg");
-  height: 500px;
-}
-.sheepContentContainer .bgImg5 {
-  background-image: url("../../pictures/vintra.jpg");
-  height: 700px;
-  background-position: 50% 20%;
-}
-.sheepContentContainer .sheepContent {
-  padding: 40px 70px;
-  background-color: gray;
-  color: white;
-  font-size: 1em;
-  text-align: left;
-}
-.sheepContentContainer .sheepContent:nth-of-type() {
-  background-color: white;
-  color: black;
-}
-.sheepContentContainer .sheepContent h1, .sheepContentContainer .sheepContent h2, .sheepContentContainer .sheepContent h3, .sheepContentContainer .sheepContent h4, .sheepContentContainer .sheepContent h5, .sheepContentContainer .sheepContent h6 {
-  margin: 0;
-}
-.sheepContentContainer .sheepContent p {
-  margin-top: 0;
-  color: whitesmoke;
+.contentContainer .contentBox:nth-child(even) {
+  left: -5%;
+  color: red;
 }
 
 /*# sourceMappingURL=sheep.css.map */

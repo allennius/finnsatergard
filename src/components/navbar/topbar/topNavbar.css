@@ -9,7 +9,8 @@
   display: flex;
   top: 0;
   width: 100%;
-  transition: height 1s;
+  transition: all 1s ease;
+  box-shadow: #616161 1px 1px 5px 1px;
 }
 .topNav span {
   font-size: 1em;
@@ -21,7 +22,7 @@
   margin: auto 0 auto 10px;
   transition-delay: 2s;
   transition: all 0.1s;
-  animation: backup 1s;
+  animation: backup 1s ease;
 }
 @keyframes backup {
   0% {
@@ -99,10 +100,11 @@
     display: none;
   }
   .topNav.responsive {
-    height: 15em;
     flex-flow: column;
     justify-content: flex-start;
     opacity: 1;
+    height: 14em;
+    border-bottom-left-radius: 4%;
   }
   .topNav.responsive .navList {
     border-top: 0.5px solid #F7F9FB;
@@ -111,7 +113,7 @@
     align-items: left;
     gap: 30px;
     margin: 45px 0;
-    animation: widthGrowing 2s;
+    animation: widthGrowing 1s ease;
   }
   @keyframes widthGrowing {
     0% {
@@ -127,9 +129,13 @@
   .topNav.responsive .navItem:nth-child(2) {
     margin-top: 20px;
   }
+  .topNav.responsive .navLink {
+    transition: all 0.5s ease;
+  }
   .topNav.responsive .navLink:hover {
     opacity: 0.5;
     font-size: 1.1em;
+    padding-left: 10px;
   }
   .topNav.responsive .navHead {
     position: absolute;
@@ -137,7 +143,7 @@
     left: 12px;
     margin: 0;
     padding: 0;
-    animation: dropdown 1s;
+    animation: dropdown 1s ease;
   }
   @keyframes dropdown {
     0% {

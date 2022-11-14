@@ -7,15 +7,16 @@
 }
 .kossaContentContainer .kossaContent {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
+  margin: 0 20px 50px 20px;
   background-color: #FFFAFA;
   max-height: 20em;
   border-radius: 10px;
   max-width: 100%;
   overflow: hidden;
   align-self: flex-start;
+  box-shadow: #EEEEEE 0px 0px 2px 1px;
 }
 .kossaContentContainer .kossaContent:nth-child(even) {
   align-self: flex-end;

@@ -8,20 +8,11 @@ $white: #F7F9FB;
 
 $backgroundcolor: #ffffffbe;
 
-.container {
-    display: flex;
-    height: 100vh;
-    margin-top: 50px;
-    background-image: inherit;
-    // background-color: $white;
-
-
-    .page {
-        border-top-left-radius: 5px;
-        background: inherit;
+.page {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
         padding: 0;
-        // background-image: url("../../pictures/test.JPG");
-        // background-color: $white;
-        flex:  6;
+        flex-grow: 1;
+        min-height: 100vh;
     }
-}

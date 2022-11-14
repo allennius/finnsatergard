@@ -9,17 +9,8 @@ $white-antiflash: #F2F2F2;
 
 $opacity: 0.7;
 
-html, body {
+.homeContentContainer {
     height: 100%;
-}
-
-.page {
-    padding: 0;
-}
-
-.contentContainer {
-    height: 100%;
-
 
     .bgImg1, .bgImg2, .bgImg3, .bgImg4, .bgImg5 {
         position: relative;
@@ -47,17 +38,17 @@ html, body {
     }
 
     .bgImg1 {
-        background-image: url('../../pictures/sheep.jpg');
-        height: 100%;
+        background-image: url('../../pictures/sheepview.jpg');
+        height: 100vh;
     }
 
     .bgImg2 {
-        background-image: url('../../pictures/roadtosun.jpg');
+        background-image: url('../../pictures/sheepblack.jpg');
         height: 400px;
     }
 
     .bgImg3 {
-        background-image: url('../../pictures/mushroom.jpg');
+        background-image: url('../../pictures/sheephill.jpg');
         height: 400px;
     }
 
@@ -67,14 +58,14 @@ html, body {
     }
 
     .bgImg5 {
-        background-image: url('../../pictures/vintra.jpg');
+        background-image: url('../../pictures/akselnoranda.jpg');
         height: 700px;
         // height: 100%;
         // max-width: 700px;
         background-position: 50% 20%;
     }
 
-    .content {
+    .homeContent {
         padding: 40px 70px;
         // background-color: $gray-granite;
         color: $white-snow;

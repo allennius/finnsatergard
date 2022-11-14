@@ -1,89 +1,46 @@
-$opacity: 0.7;
+$black-gray: #333;
+$gray-middle: #8B8B81;
+$gray: #7E7E7E;
+$gray-granite: #616161;
+$gray-bright: #EEEEEE;
+$charcoal-dark: #333333;
+$white-snow: #FFFAFA;
+$white-antiflash: #F2F2F2;
 
 
-html, body {
+
+.contentContainer {
     height: 100%;
-}
+    padding: 10%;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 60px;
+    background-color: $white-snow;
+    // overflow: scroll;
+    
 
-.page {
-    padding: 0;
-}
 
-.sheepContentContainer {
-    height: 100%;
-
-
-    .bgImg1, .bgImg2, .bgImg3, .bgImg4, .bgImg5 {
+    .contentBox {
         position: relative;
-        opacity: $opacity;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        min-width: 100px;
+        padding: 20px;
+        // overflow:hidden;
+        // border: 1px solid $charcoal-dark;
+        border-radius: 15px;
+        // box-shadow: 0 5px 10px 5px $gray-granite;
+        box-shadow: $gray-granite 0px 18px 50px -10px;
+        // align-self: center;
+        left: 5%;
 
 
-        .caption {
-            position: absolute;
-            top: 50%;
-            width: 100%;
-            text-align: center;
-            color: white;
-        }
-        .border {
-            background-color: #333;
-            padding: 5px;
-            border-radius: 5px;
-            font-size: 1em;
-
-        }
-    }
-
-    .bgImg1 {
-        background-image: url('../../pictures/sheep.jpg');
-        height: 100%;
-    }
-
-    .bgImg2 {
-        background-image: url('../../pictures/roadtosun.jpg');
-        height: 400px;
-    }
-
-    .bgImg3 {
-        background-image: url('../../pictures/mushroom.jpg');
-        height: 400px;
-    }
-
-    .bgImg4 {
-        background-image: url('../../pictures/cow.jpg');
-        height: 500px;
-    }
-
-    .bgImg5 {
-        background-image: url('../../pictures/vintra.jpg');
-        height: 700px;
-        // height: 100%;
-        // max-width: 700px;
-        background-position: 50% 20%;
-    }
-
-    .sheepContent {
-        padding: 40px 70px;
-        background-color: gray;
-        color: white;
-        font-size: 1em;
-        text-align: left;
-        
-        &:nth-of-type() {
-            background-color: white;
-            color: black;
+        &:nth-child(even) {
+            left: -5%;
+            color: red;
         }
 
-        h1, h2, h3, h4, h5, h6 {margin: 0;}
-        
-        p {
-            margin-top: 0;
-            color: whitesmoke;
-            // text-align: left;
-        }
+
+        // .content {
+
+        // }
     }
 }

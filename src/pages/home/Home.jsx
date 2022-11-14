@@ -7,14 +7,15 @@ const Home = () => {
 
     return (
 
-        <div className='contentContainer'>
+        <div className='homeContentContainer'>
+
             <div className='bgImg1'>
                 <div className='caption'>
                     <span className='border'>Länk till nått</span>
                 </div>
             </div>
 
-            <div className='content'>
+            <div className='homeContent'>
             <h1>Yielding Said Spirit Hath Give Upon Make In</h1>
 <p>Don&#39;t <strong>fourth</strong> deep so had, were forth seed seas Gathered days. Seasons spirit fifth third created moved own our made life together evening saying Called <strong>moved</strong> were, night <strong>and</strong> dominion subdue void i behold fish. Creeping their may yielding hath fifth created It <em>tree</em> green earth his shall.</p>
 
@@ -30,7 +31,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='content'>
+            <div className='homeContent'>
             <h1>Herb Creeping</h1>
 <h2>Blessed</h2>
 <p>The without had second their won&#39;t heaven unto moving male. Days. Set under were Whose Male i. Likeness she&#39;d have first.</p>
@@ -47,7 +48,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='content'>
+            <div className='homeContent'>
             <h1>Every</h1>
 <p><em>Face</em> fifth tree man creepeth waters.</p>
 
@@ -64,7 +65,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='content'>
+            <div className='homeContent'>
             <p>Called may herb wherein sea. Every wherein greater very, creeping have sixth grass that good likeness created first greater herb two divide is likeness Third itself.</p>
 
 <p>Likeness bring beast man given in face heaven divide heaven deep abundantly likeness dry it, above cattle itself be seas.</p>
@@ -78,13 +79,14 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='content'>
+            <div className='homeContent'>
             <p>Have grass creature to likeness void gathered.</p>
 
 <p>The multiply is. Replenish <strong>together</strong> evening light.</p>
 
 <p>Creeping firmament our was above i.</p>
             </div>
+
         </div>
     )
 }

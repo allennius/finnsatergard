@@ -1,14 +1,10 @@
-.container {
+.page {
   display: flex;
-  height: 100vh;
+  flex-direction: column;
   margin-top: 50px;
-  background-image: inherit;
-}
-.container .page {
-  border-top-left-radius: 5px;
-  background: inherit;
   padding: 0;
-  flex: 6;
+  flex-grow: 1;
+  min-height: 100vh;
 }
 
 /*# sourceMappingURL=layout.css.map */

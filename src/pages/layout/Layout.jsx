@@ -1,22 +1,18 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import SideNavbar from "../../components/navbar/sidebar/SideNavbar";
+import Footer from "../../components/navbar/footer/Footer";
 import Topbar from "../../components/navbar/topbar/TopNavbar";
 import "./layout.css"
 
 const Layout = () => {
     return (
         <>      
-            <Topbar />
-            
-            <div className="container">
+            <Topbar />  
+            <div className="page">
+                <Outlet />
 
-                <SideNavbar />
-
-                <div className="page">
-                    <Outlet />
-                </div>
             </div>
+            <Footer />
         </>
     )
 }
